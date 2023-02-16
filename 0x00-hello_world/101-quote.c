@@ -1,11 +1,11 @@
 #include <stdio.h>
 /**
  * main - entry point
- * stderr
- * Return:0 if runs correctly
+ * write
+ * Return:1 if it runs correctly
  */
 int main(void)
 {
-	fprintf(stderr, "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n");
+	write(2, "and that piece of art is useful - Dora Korpar, 2015-10-19\n", 58);
 	return (1);
 }
