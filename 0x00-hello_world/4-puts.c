@@ -1,14 +1,12 @@
 #include <stdio.h>
-
 /**
- * main is the entry poitn
- * I declare description
+ *  main - prints a given phrase
+ *  Return: 0 if exited properly
  */
-
 int main(void)
-{	
-	char description[] = "\"Programming is like building a multilingual puzzle";
+{
+	char desc[] = "\"Programming is like building a multilingual puzzle";
 
-	puts(description);
+	puts(desc);
 	return (0);
 }
