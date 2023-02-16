@@ -2,7 +2,12 @@
 
 int main(void)
 {
-	char description[] = "Programming is like building a multilingual puzzle";
+	/**
+	 *main is the entry function
+	 *I declared description 
+	 */
+	char description[] = "\"Programming is like building a multilingual puzzle";
+
 	puts(description);
 	return (0);
 }
