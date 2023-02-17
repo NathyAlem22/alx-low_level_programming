@@ -14,13 +14,13 @@ int main(void)
 		{
 			if ((i < j) & (j <= '9'))
 			{
-				if ((j < '9') | (i < '8'))
+				putchar(i);
+				putchar(j);
+				if ((i < '8') | (j < '9'))
 				{
-					putchar(i);
-					putchar(j);
+					putchar(',');
+					putchar(' ');
 				}
-				putchar(',');
-				putchar(' ');
 			}
 		}
 	}
