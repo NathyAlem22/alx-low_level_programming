@@ -3,7 +3,7 @@
 /**
  * _isdigit - checks if the input is digit or not
  * @x: The number to be checked
- * Return: 0 for sucess
+ * Return: 1 for a character that will be a digit or 0 for any else
  */
 int _isdigit(int c)
 {
