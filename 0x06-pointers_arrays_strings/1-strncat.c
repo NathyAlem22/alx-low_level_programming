@@ -19,7 +19,7 @@ char *_strncat(char *dest, char *src, int n)
 		dlen++;
 	}
 
-	for (; j < n; j++)
+	for (; j <= n; j++)
 	{
 		dest[dlen] = src[j];
 		dlen++;
